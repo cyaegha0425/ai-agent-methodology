@@ -6,23 +6,19 @@
 - `RSI-AB项目INDEX.md` — **咩咩蹄到好船来V1.0** 项目归档索引（架构、关键决策、harness、GUI规范）
 - `RSI-V3项目索引.md` — **V3.0.0 咩咩KICK!** 项目索引（全API架构、拦截器、伏击模式、收藏夹）
 - `RSI-V4项目索引.md` — **V4.0.0 ⚡TURBO闪电狂暴版** 项目索引（激进结账、短延迟、自动回退）
-- `RSI-GQL-API.md` — RSI GraphQL API端点、请求格式、Mutations/Queries、关键发现
-- `RSI-GraphQL-API注意事项.md` — RSI GraphQL API调用注意事项、踩坑记录
-- `RSI商店DOM结构.md` — RSI商店页面DOM选择器参考（列表页卡片、购物车按钮、标签等）
-- `RSI抢购脚本开发笔记.md` — V1/V2/V3脚本开发过程、踩坑记录、关键修复点、编译缓存/VPN/打包等踩坑详解
-- `RSI历史归档.md` — V1.x~V3.0.3详细修复记录、旧版脚本、GraphQL捕获、SKU抓取等历史数据
-- `RSI技术栈.md` — RSI网站技术架构、关键URL、价格单位
 - **`harness-RSI.md`** — RSI项目代码修改原则、HARNESS规则、tkinter GUI harness、打包部署、校准时间、API与结账流程、V1实际代码路径与选择器表
 - **`事故复盘-2026-05-04.md`** — 幻觉事故复盘（子agent幻觉来源、错误推论、防范规则）
-- `Playwright-RSI特殊处理.md` — RSI网站专属Playwright技巧（超时设置、滚动加载、响应拦截、CDP连接）
-- `Python打包-RSI项目.md` — RSI项目PyInstaller打包笔记
-- `RSI-MIEMIE-LITE项目索引.md` — V3.0.4 DOM点击精简版项目索引（架构改造、BUG修复、Git记录）
-- `RSI-SuperFast极速版修复记录.md` — 极速版修复记录（取消响应慢、白屏、BrowserContext closed等）
-- `RSI教程v1对比审查报告.md` — 教程v1实战章节与V3实际代码对比审查（5个P0+5个P1偏差，已全部修复）
-- `RSI教程审计记录.md` — 教程v2审计跟踪记录（已完成章节标记、待修问题清单）
-- `信用点变动记录.md` — RSI信用点余额追踪（基准余额、变动流水）
 
-## RSI项目教程 (`./文档工作/`)
+### 项目文件位置
+| 版本 | 路径 |
+|------|------|
+| V1.0 咩咩蹄到好船来 | `./项目/RSI抢购/V1/` |
+| V3.0.4 咩咩KICK | `./项目/RSI抢购/V3.0.4/` |
+| V4.0 TURBO闪电狂暴版 | `./项目/RSI抢购/脚本/` |
+| 极速版SuperFast | `./项目/RSI抢购/脚本/RSI_MIEBUY_SuuuuuuuuperFast/` |
+| 测试脚本 | `./项目/RSI抢购/测试/` |
+
+## RSI项目教程 (`./知识库/文档/`)
 - `RSI项目Python自学教程.md` — **最终版v2**，18章3811行，前11章入门基础+12-18章基于V3实际代码重写（CDP+Edge/伏击模式/urllib）
 - `RSI项目Python自学教程-旧版v1.md` — v1旧版备份
 
@@ -76,7 +72,7 @@
 - `AI协作核心技巧.md` — AI沟通艺术、项目迭代思路、常见技术坑点、双Agent互审
 - `工具踩坑汇总.md` — Playwright/tkinter/RSI API/编译缓存等踩坑速查（从TOOLS.md提取）
 
-## 方法论 (`./文档工作/`)
+## 方法论 (`./文档/`)
 - `INDEX.md` — **项目索引**（项目目标、文件清单、关键决策、当前状态）
 - `AI协作驱动开发方法论 v1.3.md` — 完整版，Agent机制+协作工作流+记忆管理+项目迭代+开发基础设施+幻觉防范+FAQ+百科分流
 - `AI协作驱动开发方法论-入门手册.md` — 入门版，10章+FAQ+附录，v1.3重写
