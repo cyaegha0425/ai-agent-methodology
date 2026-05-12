@@ -1,0 +1,22 @@
+# 二进制文件
+*.docx
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.zip
+*.rar
+
+# 临时文件
+*.tmp
+*.temp
+*.parsed.md
+
+# macOS
+.DS_Store
+
+# 知识库模板（仅存档，不同步）
+*/知识库模板/
+*/模板/
