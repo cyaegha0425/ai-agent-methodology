@@ -37,6 +37,9 @@
 - `编号规则.md` — 编号体系（HF-MGMT/HF-PROC/HF-WI/HF-FRM/HF-TECH/HF-UM）
 - `编号台账.md` — 实际编号记录（待填充）
 - `生成规则.md` — 编号生成规范
+- `ISO四阶文件体系汇总.md` — 4阶架构总表、各阶清单、产品代码表、SOP vs 表单区分
+- `文档命名方法论.md` — 命名规范、目录结构、新建流程、版本管理
+- `说明书模板/` — 说明书模板目录（HF-UM-001）
 
 ## 编程开发 (`./知识库/编程开发/`)
 - `Playwright技巧.md` — Playwright常见问题：timeout单位、React事件、CDP连接、tkinter事件循环冲突、wait_for_selector、force=True
